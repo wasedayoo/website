@@ -19,3 +19,31 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+body {
+  background-color: black !important;
+  background-image: radial-gradient(white 500px, transparent 51px) !important;
+  background-size: 1000px 1000px !important; /* 丸のサイズと間隔を調整 */
+  background-position: center !important; /* 位置の微調整 */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.circle {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50%;
+  opacity: 0.8;
+  cursor: grab;
+}
+
+.circle:active {
+  cursor: grabbing;
+}
+
